@@ -1,7 +1,7 @@
 let themes = ["pi", "ye", "bl"];
 let theme = themes[1];
 let index = 0;
-let target = new Date('January 1 2021 00:00:00');
+let target = new Date('January 1 2024 00:00:00');
 
 function inc(){
     theme = themes[index];
@@ -26,7 +26,7 @@ function banner(){
         <span class="operator">.</span>
         <span class="method">log</span>
         <span class="operator">(</span>
-        <span class="string">"Happy New Year 2021"</span>
+        <span class="string">"Happy New Year 2024"</span>
         <span class="operator">);</span>
         </div>
     `;
